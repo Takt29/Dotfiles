@@ -6,5 +6,5 @@ do
     [[ "$fileName" == ".DS_Store" ]] && continue
 
     echo "link $fileName to ~/$fileName"
-    ln -s $fileName "~/$fileName"
+    ln -s $fileName ~/$fileName
 done
