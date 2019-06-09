@@ -1,0 +1,12 @@
+# tmp file
+*~
+
+# Emacs
+.emacs.d/.cask
+.emacs.d/auto-save-list
+.emacs.d/elpa
+.emacs.d/snippets/c++-mode
+
+# MacOS
+.DS_Store
+
