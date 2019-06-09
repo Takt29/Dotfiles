@@ -8,6 +8,9 @@ export PATH="/usr/local/opt/openssl/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl/include"
 
+# Homebrew
+export PATH="/usr/local/sbin:$PATH"
+
 # Nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 export NODEBREW_ROOT=/usr/local/var/nodebrew
