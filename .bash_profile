@@ -12,3 +12,6 @@ export CPPFLAGS="-I/usr/local/opt/openssl/include"
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 export NODEBREW_ROOT=/usr/local/var/nodebrew
 export NODE_BINARY=$HOME/.nodebrew/current/bin/node
+
+# Nano
+export PATH="/usr/local/opt/ncurses/bin:$PATH"
