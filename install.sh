@@ -10,3 +10,6 @@ do
     echo "link $fileName to ~/$fileName"
     ln -s $SCRIPT_DIR/$fileName ~/
 done
+
+set -x
+git config --global core.excludesfile ~/.gitignore_global
