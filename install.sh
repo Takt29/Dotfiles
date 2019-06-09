@@ -9,5 +9,4 @@ do
 
     echo "link $fileName to ~/$fileName"
     ln -s $SCRIPT_DIR/$fileName ~/
-    source ~/$fileName
 done
