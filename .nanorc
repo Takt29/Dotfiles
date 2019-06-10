@@ -4,4 +4,4 @@ set autoindent
 set nowrap
 set smooth
 set tabsize 4
-
+set linenumbers
