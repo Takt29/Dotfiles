@@ -13,3 +13,6 @@ done
 
 set -x
 git config --global core.excludesfile ~/.gitignore_global
+
+mkdir -p ~/Library/KeyBindings
+ln -s $SCRIPT_DIR/DefaultKeyBinding.dict ~/Library/KeyBindings/
