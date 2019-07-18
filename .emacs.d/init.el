@@ -16,7 +16,7 @@
 ;;Japanese
 (set-fontset-font "fontset-default"
                   'japanese-jisx0208
-                  '("OsakaMono"))
+                  '("Osaka"))
 
 ;;-----------------------
 ;; Line Number
