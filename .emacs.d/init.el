@@ -1,4 +1,5 @@
 (require 'cask "/usr/local/opt/cask/cask.el")
+(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 (cask-initialize)
 
 (setenv "LANG" "en_US.UTF-8")
