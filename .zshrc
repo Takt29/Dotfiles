@@ -12,7 +12,7 @@ function emacs() {
 # customize prompto
 
 local BLUE=$'%{\e[34m%}'
-PROMPT="%F{117}%n@%m %c %# %f"
+PROMPT="%F{117}%n@%m:%c %# %f"
 
 # show branch name
 # https://qiita.com/reireias/items/60ee9934fb1f5d94f125#prompt
