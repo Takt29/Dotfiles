@@ -1,5 +1,6 @@
 # case-insensitive
 
+autoload -U compinit && compinit
 zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}'
 
 # open file to use GUI ver. Emacs
@@ -7,6 +8,11 @@ zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}
 function emacs() {
     /usr/local/bin/emacs $@ &
 }
+
+# customize prompto
+
+local BLUE=$'%{\e[34m%}'
+PROMPT="%F{117}%n@%m %c %# %f"
 
 # show branch name
 # https://qiita.com/reireias/items/60ee9934fb1f5d94f125#prompt
@@ -19,7 +25,7 @@ zstyle ':vcs_info:git:*' unstagedstr "%F{red}+"
 zstyle ':vcs_info:*' formats "%F{green}%c%u[%b]%f"
 zstyle ':vcs_info:*' actionformats '[%b|%a]'
 precmd () { vcs_info }
-RPROMPT='${vcs_info_msg_0_} '$RPROMPT
+RPROMPT=' ${vcs_info_msg_0_}'$RPROMPT
 
 # compile
 
