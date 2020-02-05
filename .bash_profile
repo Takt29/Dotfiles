@@ -16,7 +16,7 @@ export PATH="/usr/local/sbin:$PATH"
 
 # Nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
-export NODEBREW_ROOT=/usr/local/var/nodebrew
+export NODEBREW_ROOT=$HOME/.nodebrew
 export NODE_BINARY=$HOME/.nodebrew/current/bin/node
 
 # Nano

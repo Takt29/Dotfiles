@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 SCRIPT_DIR=$(cd $(dirname $0); pwd)
 
@@ -14,6 +14,8 @@ do
     echo "link $fileName to ~/$fileName"
     ln -s $SCRIPT_DIR/$fileName ~/
 done
+
+source ~/.zprofile ~/.zshrc
 
 set -x
 
@@ -36,3 +38,23 @@ fi
 
 brew install rcmdnk/file/brew-file
 brew file install
+
+# setup emacs
+
+cd ~/.emacs.d/
+cask upgrade
+cask install
+
+# setup nodebrew
+
+nodebrew setup
+nodebrew install stable
+nodebrew use stable
+npm update -g npm
+
+# setup BasicTex
+
+sudo tlmgr update --self --all
+sudo tlmgr paper a4
+sudo tlmgr install collection-langjapanese
+sudo tlmgr install fvextra ifplatform xstring framed titlesec dingbat mdframed needspace minted pdftexcmds
