@@ -13,6 +13,8 @@ export CPPFLAGS="-I/usr/local/opt/openssl/include"
 
 # Homebrew
 export PATH="/usr/local/sbin:$PATH"
+export HOMEBREW_BREWFILE=$HOME/.brewfile/Brewfile
+export HOMEBREW_BREWFILE_ON_REQUEST=1
 
 # Nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH

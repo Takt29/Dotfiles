@@ -1,0 +1,77 @@
+# Additional files
+file ./${HOST}.Brewfile
+
+# tap repositories and their packages
+
+tap homebrew/core
+brew cask
+brew clang-format
+brew cmu-pocketsphinx
+brew coreutils
+brew exiftool
+brew ffmpeg
+brew gcc
+brew git-ftp
+brew gnupg
+brew gnuplot
+brew icarus-verilog
+brew jq
+brew mas
+brew mono
+brew mysql
+brew nano
+brew nodebrew
+brew openssl@1.1
+brew progress
+brew pypy3
+brew python
+brew sbt
+brew telnet
+brew watchman
+brew wget
+brew xpdf
+
+tap homebrew/cask-versions
+cask adoptopenjdk8
+cask java11
+
+tap homebrew/cask
+cask adobe-acrobat-reader
+cask android-file-transfer
+cask basictex
+cask crosspack-avr
+cask cyberduck
+cask docker
+cask emacs
+cask google-chrome
+cask java
+cask karabiner-elements
+cask kicad
+cask microsoft-teams
+cask skype
+cask sourcetree
+cask steam
+cask typora
+cask visual-studio-code
+cask visualvm
+
+tap osx-cross/avr
+brew avr-gcc
+
+tap rcmdnk/file
+brew brew-file
+
+# App Store applications
+appstore 808647808 Activity Timer (2.0.5)
+appstore 682658836 GarageBand (10.3.4)
+appstore 408981434 iMovie (10.1.14)
+appstore 409183694 Keynote (9.2.1)
+appstore 405399194 Kindle (1.26.1)
+appstore 472226235 LanScan (6.3.1)
+appstore 539883307 LINE (5.21.3)
+appstore 441258766 Magnet (2.4.5)
+appstore 409203825 Numbers (6.2.1)
+appstore 409201541 Pages (8.2.1)
+appstore 803453959 Slack (4.2.0)
+appstore 1482490089 Tampermonkey (4.10.6108)
+appstore 497799835 Xcode (11.3.1)

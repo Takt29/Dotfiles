@@ -16,3 +16,12 @@ git config --global core.excludesfile ~/.gitignore_global
 
 mkdir -p ~/Library/KeyBindings
 ln -s $SCRIPT_DIR/DefaultKeyBinding.dict ~/Library/KeyBindings/
+
+# setup brew
+
+if ! [ -x "$(command -v git)" ]; then
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+brew install rcmdnk/file/brew-file
+brew file install
