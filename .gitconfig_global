@@ -1,0 +1,6 @@
+[core]
+	excludesfile = /Users/yoshida_t/.gitignore_global
+	quotepath = false
+[alias]
+	st = status
+	delete-merged-branch = !git branch --merged | grep -vE '^\\*|master$|develop$' | xargs -I % git branch -d %
