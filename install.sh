@@ -29,7 +29,7 @@ git config --global core.excludesfile ~/.gitignore_global
 
 # setup brew
 
-if ! [ -x "$(command -v git)" ]; then
+if ! [ -x "$(command -v brew)" ]; then
     echo "install brew"
     set +x
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -58,3 +58,4 @@ sudo tlmgr update --self --all
 sudo tlmgr paper a4
 sudo tlmgr install collection-langjapanese
 sudo tlmgr install fvextra ifplatform xstring framed titlesec dingbat mdframed needspace minted pdftexcmds
+sudo tlmgr install zref catchfile
