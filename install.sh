@@ -46,6 +46,7 @@ eval "$(/usr/libexec/path_helper)"
 cd ~/.emacs.d/
 cask upgrade
 cask install
+cd -
 
 # setup nodebrew
 
