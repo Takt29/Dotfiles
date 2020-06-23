@@ -39,6 +39,8 @@ fi
 brew install rcmdnk/file/brew-file
 brew file install
 
+eval "$(/usr/libexec/path_helper)"
+
 # setup emacs
 
 cd ~/.emacs.d/
