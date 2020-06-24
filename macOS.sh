@@ -24,6 +24,7 @@ defaults write com.apple.dock mru-spaces -bool false
 ## Screen Saver ##
 
 defaults write com.apple.screensaver tokenRemovalAction -int 0
+defaults -currentHost write com.apple.screensaver idleTime -int 0
 
 ## Firewall ##
 
