@@ -20,3 +20,9 @@ cask java11
 
 tap osx-cross/avr
 brew avr-gcc
+
+# App Store applications
+appstore 808647808 Activity Timer (2.0.5)
+appstore 405399194 Kindle (1.26.1)
+appstore 472226235 LanScan (6.3.1)
+appstore 539883307 LINE (5.21.3)
