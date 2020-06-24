@@ -26,6 +26,7 @@ ln -s $SCRIPT_DIR/DefaultKeyBinding.dict ~/Library/KeyBindings/
 # setup git
 
 git config --global core.excludesfile ~/.gitignore_global
+git config --global include.path ~/.gitconfig_global
 
 # setup brew
 
