@@ -1,3 +1,5 @@
+brew awscli
+
 tap homebrew/cask
 cask google-japanese-ime
 cask microsoft-teams
