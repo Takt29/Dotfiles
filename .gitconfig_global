@@ -4,3 +4,4 @@
 	st = status
 	sw = switch
 	delete-merged-branch = !git branch --merged | grep -vE '^\\*|master$|develop$' | xargs -I % git branch -d %
+	pull-submodules = submodule foreach git pull origin master
