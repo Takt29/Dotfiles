@@ -18,8 +18,6 @@ cask crosspack-avr
 cask discord
 cask kicad
 cask steam
-cask visualvm
-
 
 tap osx-cross/avr
 brew avr-gcc
