@@ -17,17 +17,15 @@ brew mas
 brew mysql
 brew nano
 brew nodebrew
+brew openssl@1.1
 brew progress
 brew pypy3
 brew telnet
-brew tree
-brew watch
 brew watchman
 brew wget
 brew xpdf
 brew yarn
 
-tap homebrew/services
 
 tap homebrew/cask
 cask adobe-acrobat-reader
@@ -37,29 +35,31 @@ cask cyberduck
 cask docker
 cask emacs
 cask google-chrome
+cask iina
 cask java
 cask karabiner-elements
+cask ngrok
 cask skype
 cask sourcetree
 cask typora
+cask vagrant
+cask virtualbox
 cask visual-studio-code
-cask zoomus
+cask vlc
 
 tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 682658836 GarageBand (10.3.4)
-appstore 408981434 iMovie (10.1.14)
+appstore 411643860 DaisyDisk (4.10)
 appstore 409183694 Keynote (10.1)
-appstore 441258766 Magnet (2.4.5)
+appstore 441258766 Magnet (2.4.6)
 appstore 409203825 Numbers (10.1)
 appstore 409201541 Pages (10.1)
-appstore 844918735 PicGIF Lite (2.0.8)
 appstore 1289119450 SafariMarkdownLinker (1.0)
-appstore 803453959 Slack (4.7.0)
-appstore 1482490089 Tampermonkey (4.10.6108)
-appstore 497799835 Xcode (11.5)
+appstore 803453959 Slack (4.8.0)
+appstore 1482490089 Tampermonkey (4.11.6117)
+appstore 497799835 Xcode (11.6)
 
 # Additional files
-file ./${HOST}.Brewfile
+file ./.Brewfile

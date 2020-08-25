@@ -30,6 +30,9 @@ git config --global include.path ~/.gitconfig_global
 
 # setup brew
 
+touch ${SCRIPT_DIR}/.brewfile/${HOST}.brewfile
+ln -s ${SCRIPT_DIR}/.brewfile/${HOST}.brewfile ~/.brewfile/.Brewfile
+
 if ! [ -x "$(command -v brew)" ]; then
     echo "install brew"
     set +x
