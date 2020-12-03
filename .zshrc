@@ -56,7 +56,7 @@ GXX_OPTION="-std=c++17 -DLOCAL"
 GCCXX_DEBUG_OPTION="-O0 -g -fsanitize=undefined -fsanitize=address -Wall"
 GCCXX_STACKSIZE_OPTION="-Wl,-stack_size,0x100000000"
 
-alias gcc="g++ ${GCC_OPTION}"
+alias gcc="gcc ${GCC_OPTION}"
 alias g++="g++ ${GXX_OPTION}"
 alias gcc_debug="gcc ${GCC_OPTION} ${GCCXX_DEBUG_OPTION}"
 alias g++_debug="g++ ${GXX_OPTION} ${GCCXX_DEBUG_OPTION}"
