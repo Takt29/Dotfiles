@@ -62,4 +62,4 @@ appstore 1482490089 Tampermonkey (4.11.6117)
 appstore 497799835 Xcode (11.6)
 
 # Additional files
-file ./.Brewfile
+file ~/.brewfile/.Brewfile
