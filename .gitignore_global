@@ -1,8 +1,12 @@
 # tmpfile
 
 *~
-#*#
+\#*#
 .#*
+
+# editor
+
+.vscode
 
 # macOS
 
