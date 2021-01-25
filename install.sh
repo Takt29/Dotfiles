@@ -66,3 +66,10 @@ sudo tlmgr paper a4
 sudo tlmgr install collection-langjapanese
 sudo tlmgr install fvextra ifplatform xstring framed titlesec dingbat mdframed needspace minted pdftexcmds
 sudo tlmgr install zref catchfile
+
+# setup xpdf
+
+mkdir -p /usr/local/share/xpdf
+wget https://dl.xpdfreader.com/xpdf-japanese.tar.gz -O /usr/local/share/xpdf/xpdf-japanese.tar.gz
+tar -xvf /usr/local/share/xpdf/xpdf-japanese.tar.gz -C /usr/local/share/xpdf/
+mv /usr/local/share/xpdf/xpdf-japanese /usr/local/share/xpdf/japanese
