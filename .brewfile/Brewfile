@@ -58,7 +58,6 @@ brew brew-file
 
 # Other Cask applications
 cask java
-cask zoomus
 
 # App Store applications
 appstore 411643860 DaisyDisk (4.12.1)

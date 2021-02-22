@@ -3,8 +3,7 @@
 
 tap homebrew/cask
 cask firefox
-cask google-japanese-ime
-cask microsoft-teams
+cask amazon-music
 
 # Other Homebrew packages
 brew awscli
