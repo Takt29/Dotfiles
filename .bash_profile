@@ -14,11 +14,6 @@ export CPPFLAGS="-I/usr/local/opt/openssl/include"
 # Homebrew
 export PATH="/usr/local/sbin:$PATH"
 
-# Nodebrew
-export PATH=$HOME/.nodebrew/current/bin:$PATH
-export NODEBREW_ROOT=$HOME/.nodebrew
-export NODE_BINARY=$HOME/.nodebrew/current/bin/node
-
 # Nano
 export PATH="/usr/local/opt/ncurses/bin:$PATH"
 
@@ -28,3 +23,9 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# nvm
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion

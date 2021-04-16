@@ -52,12 +52,11 @@ cask upgrade
 cask install
 cd -
 
-# setup nodebrew
+# setup nvm
 
-nodebrew setup
-nodebrew install stable
-nodebrew use stable
-npm update -g npm
+mkdir -p ~/.nvm
+nvm install --lts --latest-npm
+nvm alias default "lts/*"
 
 # setup BasicTex
 

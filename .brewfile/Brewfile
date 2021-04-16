@@ -16,7 +16,7 @@ brew jq
 brew mas
 brew mysql
 brew nano
-brew nodebrew
+brew nvm
 brew openjdk
 brew progress
 brew pypy3

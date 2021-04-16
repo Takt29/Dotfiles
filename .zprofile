@@ -16,11 +16,6 @@ export PATH="/usr/local/sbin:$PATH"
 export HOMEBREW_BREWFILE=$HOME/.brewfile/Brewfile
 export HOMEBREW_BREWFILE_ON_REQUEST=1
 
-# Nodebrew
-export PATH=$HOME/.nodebrew/current/bin:$PATH
-export NODEBREW_ROOT=$HOME/.nodebrew
-export NODE_BINARY=$HOME/.nodebrew/current/bin/node
-
 # Nano
 export PATH="/usr/local/opt/ncurses/bin:$PATH"
 
