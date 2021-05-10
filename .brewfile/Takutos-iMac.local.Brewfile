@@ -10,7 +10,7 @@ tap homebrew/cask
 cask discord
 cask steam
 cask eset-cyber-security-pro
-cask zoomus
+cask zoom
 
 # App Store applications
 appstore 472226235 LanScan (6.5.0)

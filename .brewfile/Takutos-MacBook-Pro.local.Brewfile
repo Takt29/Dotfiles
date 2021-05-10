@@ -19,7 +19,7 @@ cask discord
 cask kicad
 cask steam
 
-cask zoomus
+cask zoom
 
 tap osx-cross/avr
 brew avr-gcc
