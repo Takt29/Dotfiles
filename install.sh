@@ -45,13 +45,6 @@ brew file install
 
 eval "$(/usr/libexec/path_helper)"
 
-# setup emacs
-
-cd ~/.emacs.d/
-cask upgrade
-cask install
-cd -
-
 # setup nvm
 
 mkdir -p ~/.nvm
