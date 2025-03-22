@@ -1,15 +1,6 @@
 # tmp file
 *~
 
-# Emacs
-.emacs.d/.cask
-.emacs.d/auto-save-list
-.emacs.d/elpa
-.emacs.d/snippets/c++-mode
-
-# Brewfile
-.brewfile/.Brewfile
-
 # MacOS
 .DS_Store
 

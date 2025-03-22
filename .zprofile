@@ -1,5 +1,3 @@
-# source ~/.zshrc
-
 # Locale
 export LC_ALL=en_US.UTF-8
 
@@ -13,18 +11,6 @@ export CPPFLAGS="-I/usr/local/opt/openssl/include"
 
 # Homebrew
 export PATH="/usr/local/sbin:$PATH"
-export HOMEBREW_BREWFILE=$HOME/.brewfile/Brewfile
-export HOMEBREW_BREWFILE_ON_REQUEST=1
-
-# Nano
-export PATH="/usr/local/opt/ncurses/bin:$PATH"
-
-# Android
-export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 if [[ -e ~/.zprofile.local ]]; then
     source ~/.zprofile.local
