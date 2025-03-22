@@ -16,6 +16,12 @@ if type volta > /dev/null 2>&1; then
     export PATH="$HOME/.volta/bin:$PATH"
 fi
 
+# rbenv
+if type rbenv > /dev/null 2>&1; then
+    export PATH="$HOME/.rbenv/bin:$PATH"
+    eval "$(rbenv init -)"
+fi
+
 # for local customize
 if [[ -e ~/.zprofile.local ]]; then
     source ~/.zprofile.local
