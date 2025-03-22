@@ -41,3 +41,8 @@ zstyle ':vcs_info:*' formats "%F{green}%c%u[%b]%f"
 zstyle ':vcs_info:*' actionformats '[%b|%a]'
 precmd () { vcs_info }
 RPROMPT=' ${vcs_info_msg_0_}'$RPROMPT
+
+# dart completion
+if [[ -d ~/.dart-cli-completion ]]; then
+    source  ~/.dart-cli-completion/zsh-config.zsh
+fi
