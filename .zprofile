@@ -16,6 +16,11 @@ else
     eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
+# Volta
+if type volta > /dev/null 2>&1; then
+    export PATH="$HOME/.volta/bin:$PATH"
+fi
+
 # for local customize
 if [[ -e ~/.zprofile.local ]]; then
     source ~/.zprofile.local
