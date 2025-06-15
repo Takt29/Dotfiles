@@ -1,5 +1,9 @@
 [core]
 	quotepath = false
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
 [alias]
 	st = status
 	sw = switch
